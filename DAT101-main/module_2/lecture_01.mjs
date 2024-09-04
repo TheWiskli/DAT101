@@ -1,3 +1,4 @@
-import { initPrintOut, printOut, newLine } from "../../common/script/utils.mjs";
+import { initPrintOut, printOut, newLine } from "/DAT101-main/common/script/utils.mjs";
 initPrintOut(document.getElementById("txtOut"));
-printOut("Test");
+let tekst = "Test is Over";
+printOut(tekst);
